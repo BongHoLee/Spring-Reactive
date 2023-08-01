@@ -1,0 +1,6 @@
+ [parallel-3] INFO = - parallel doOnNext : c
+ [parallel-2] INFO = - parallel doOnNext : b
+ [parallel-1] INFO = - parallel doOnNext : a
+ [parallel-3] INFO = - immedate() doOnNext : c
+ [parallel-3] INFO = - immedate() doOnNext : a
+ [parallel-3] INFO = - immedate() doOnNext : b

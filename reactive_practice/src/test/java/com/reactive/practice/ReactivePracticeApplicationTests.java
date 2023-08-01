@@ -9,5 +9,4 @@ class ReactivePracticeApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
