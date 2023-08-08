@@ -14,6 +14,7 @@ public class ContextMain {
                 )
                 .subscribeOn(Schedulers.boundedElastic())
                 .publishOn(Schedulers.parallel())
+
                 .transformDeferredContextual(
                         (mono, contextView) -> mono.map(data -> data + " " + contextView.get("lastName"))
                 )
